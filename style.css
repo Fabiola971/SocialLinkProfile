@@ -15,6 +15,10 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
+h1{
+    margin: 25px 0 5px 0;
+}
+
 img{ 
     border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;
     width: 30%;
@@ -22,11 +26,11 @@ img{
 
 section{
     background-color:  hsl(0, 0%, 12%);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     margin: 50px 20px;
     padding: 20px;
 }
@@ -36,10 +40,14 @@ section header p:first-of-type{
 
 }
 
+section header p:last-of-type{
+    margin: 25px 0 18px 0;
+}
+
 .link div{
     background-color:  hsl(0, 0%, 20%);
-    margin: 8px 0;
-    padding: 10px;
+    margin: 12px 0;
+    padding: 12px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -48,8 +56,17 @@ section header p:first-of-type{
     font-weight: 600;
 }
 
+.link div:last-of-type{
+    margin-bottom: 0;
+}
+
 p{
     font-size: 14px;
     
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);;
 }
 
