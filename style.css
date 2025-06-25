@@ -7,7 +7,7 @@
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    /* font-weight: weight; */
     font-style: normal;
     background-color:  hsl(0, 0%, 8%)
     ;
@@ -17,6 +17,7 @@ body{
 
 h1{
     margin: 25px 0 5px 0;
+    font-size: 6vw;
 }
 
 img{ 
@@ -56,17 +57,30 @@ section header p:last-of-type{
     font-weight: 600;
 }
 
+.link div:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.link div:hover, a:hover{
+    cursor: url('assets/images/hand-cursor-black.png'), pointer;
+}
+
 .link div:last-of-type{
     margin-bottom: 0;
 }
 
 p{
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
 
 a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);;
+}
+
+@media (min-width: 1440px){
+    section{
+        padding: 40px;
+    }
 }
 
