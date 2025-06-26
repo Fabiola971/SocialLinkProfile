@@ -38,11 +38,13 @@ section{
 
 section header p:first-of-type{
     color:  hsl(75, 94%, 57%);
+    font-size: 3.5vw;
 
 }
 
 section header p:last-of-type{
     margin: 25px 0 18px 0;
+    font-size: 4.2vw;
 }
 
 .link div{
