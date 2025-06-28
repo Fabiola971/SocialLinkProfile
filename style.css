@@ -7,17 +7,14 @@
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: weight; */
     font-style: normal;
-    background-color:  hsl(0, 0%, 8%)
-    ;
+    background-color:  hsl(0, 0%, 8%);
     text-align: center;
     color: hsl(0, 0%, 100%);
 }
 
 h1{
     margin: 25px 0 5px 0;
-    font-size: 6vw;
 }
 
 img{ 
@@ -32,31 +29,28 @@ section{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    margin: 50px 20px;
+    margin: 150px 20px;
     padding: 20px;
 }
 
 section header p:first-of-type{
     color:  hsl(75, 94%, 57%);
-    font-size: 3.5vw;
-
 }
 
 section header p:last-of-type{
-    margin: 25px 0 18px 0;
-    font-size: 4.2vw;
+    margin: 25px 0 22px 0;
 }
 
 .link div{
     background-color:  hsl(0, 0%, 20%);
-    margin: 12px 0;
-    padding: 12px;
+    margin: 15px 0;
+    padding: 15px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .link div:hover{
@@ -77,12 +71,27 @@ p{
 
 a{
     text-decoration: none;
-    color: hsl(0, 0%, 100%);;
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 576px){
+    h1{
+        font-size: 3.5vw;
+    }
+
+    section header p{
+        font-size: 2vw;
+    }
+
+    section{
+        padding: 40px;
+        margin: 50px 100px;
+    }
 }
 
 @media (min-width: 1440px){
     section{
-        padding: 40px;
+        margin: 150px 400px;
     }
 }
 
