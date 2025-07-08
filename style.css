@@ -11,6 +11,9 @@ body{
     background-color:  hsl(0, 0%, 8%);
     text-align: center;
     color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -31,6 +34,12 @@ section{
     -o-border-radius: 15px;
     margin: 150px 20px;
     padding: 20px;
+    width: 336px;
+    transition: width 0.7s ease-in-out;
+    -webkit-transition: width 0.7s ease-in-out;
+    -moz-transition: width 0.7s ease-in-out;
+    -ms-transition: width 0.7s ease-in-out;
+    -o-transition: width 0.7s ease-in-out;
 }
 
 section header p:first-of-type{
@@ -75,23 +84,16 @@ a{
 }
 
 @media (min-width: 576px){
-    h1{
-        font-size: 3.5vw;
-    }
-
-    section header p{
-        font-size: 2vw;
-    }
 
     section{
         padding: 40px;
-        margin: 50px 100px;
+        /* width: 376px; */
     }
 }
 
 @media (min-width: 1440px){
     section{
-        margin: 150px 400px;
+        width: 376px; 
     }
 }
 
