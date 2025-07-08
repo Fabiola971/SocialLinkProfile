@@ -84,16 +84,10 @@ a{
 }
 
 @media (min-width: 576px){
-
     section{
         padding: 40px;
-        /* width: 376px; */
+        width: 376px;
     }
 }
 
-@media (min-width: 1440px){
-    section{
-        width: 376px; 
-    }
-}
 
